@@ -5,7 +5,7 @@ import { AngularFireModule } from "@angular/fire";
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
-import { environment } from "../environments/environment";
+import { environment } from "src/environments/environment";
 
 @NgModule({
   imports: [
