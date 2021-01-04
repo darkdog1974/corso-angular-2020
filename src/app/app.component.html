@@ -1,7 +1,7 @@
 <app-nav></app-nav>
 <ums name="{{ name }}"></ums>
 
-<h1></h1>
+<app-users></app-users>
 <ul>
 	<li *ngFor="let utente of utenti | async">
 		{{ utente.NOME }} {{ utente.COGNOME }}
